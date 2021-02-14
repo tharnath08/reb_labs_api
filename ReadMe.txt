@@ -4,6 +4,9 @@ API KEY : dud6xJrwudpJd7Vy84IMiy1Qa2mBlN
 API TYPE : BEARER TOKEN
 
 
+Testing Video: https://drive.google.com/file/d/1sWegqAbHly2E37L-9Fu3J-FtOzlU-bPl/view?usp=sharing
+
+
 https://afternoon-lake-23636.herokuapp.com    (Hosted URL)
 
 https://afternoon-lake-23636.herokuapp.com/products    (To view Products list)
