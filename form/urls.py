@@ -16,13 +16,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from rest_framework.urlpatterns import format_suffix_patterns
-from api import views
+from api import views, urls
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('o/', include('oauth2_provider.urls', namespace='oauth2_provider')),
-    path('products', views.productlist.as_view()),
-    path('products/<int:pk>', views.productDetail.as_view()),
-    path('products/categories', views.categorylist.as_view()),
-    path('products/categories/<int:pk>', views.categoryDetail.as_view()),
+    path('',include('api.urls'))
 ]
